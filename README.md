@@ -1,4 +1,4 @@
-# neural-style
+# neural-style [[![Build Status](https://travis-ci.com/anishathalye/neural-style.svg?branch=master)](https://travis-ci.com/anishathalye/neural-style)]
 
 An implementation of [neural style][paper] in TensorFlow.
 
@@ -94,7 +94,7 @@ in range [0.0; 1.0].
 
 `--pooling` allows to select which pooling layers to use (specify either `max` or `avg`).
 Original VGG topology uses max pooling, but the [style transfer paper][paper] suggests
-replacing it with average pooling. The outputs are perceptually differnt, max pool in
+replacing it with average pooling. The outputs are perceptually different, max pool in
 general tends to have finer detail style transfer, but could have troubles at
 lower-freqency detail level:
 
@@ -145,10 +145,10 @@ If you use this implementation in your work, please cite the following:
 
 ## License
 
-Copyright (c) 2015-2018 Anish Athalye. Released under GPLv3. See
+Copyright (c) 2015-2019 Anish Athalye. Released under GPLv3. See
 [LICENSE.txt][license] for details.
 
-[net]: http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
+[net]: https://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
 [paper]: http://arxiv.org/pdf/1508.06576v2.pdf
 [l-bfgs]: https://en.wikipedia.org/wiki/Limited-memory_BFGS
 [adam]: http://arxiv.org/abs/1412.6980
